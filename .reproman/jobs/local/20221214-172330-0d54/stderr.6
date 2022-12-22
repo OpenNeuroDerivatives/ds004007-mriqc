@@ -1,0 +1,72 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-euwqqphu because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-dmig2j7n because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-muxp7rto because the default path (/home/mriqc/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Traceback (most recent call last):
+  File "/opt/conda/bin/mriqc", line 8, in <module>
+    sys.exit(main())
+  File "/opt/conda/lib/python3.9/site-packages/mriqc/cli/run.py", line 159, in main
+    mriqc_wf.run(**_plugin)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/workflows.py", line 638, in run
+    runner.run(execgraph, updatehash=updatehash, config=self.config)
+  File "/opt/conda/lib/python3.9/site-packages/mriqc/engine/plugin.py", line 184, in run
+    self._clean_queue(jobid, graph, result=result)
+  File "/opt/conda/lib/python3.9/site-packages/mriqc/engine/plugin.py", line 256, in _clean_queue
+    raise RuntimeError("".join(result["traceback"]))
+RuntimeError: Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/mriqc/engine/plugin.py", line 60, in run_node
+    result["result"] = node.run(updatehash=updatehash)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/nodes.py", line 524, in run
+    result = self._run_interface(execute=True)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/nodes.py", line 642, in _run_interface
+    return self._run_command(execute)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/pipeline/engine/nodes.py", line 750, in _run_command
+    raise NodeExecutionError(
+nipype.pipeline.engine.nodes.NodeExecutionError: Exception raised while executing Node compute_tsnr.
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.9/site-packages/nipype/interfaces/base/core.py", line 398, in run
+    runtime = self._run_interface(runtime)
+  File "/opt/conda/lib/python3.9/site-packages/nipype/algorithms/confounds.py", line 921, in _run_interface
+    [
+  File "/opt/conda/lib/python3.9/site-packages/nipype/algorithms/confounds.py", line 922, in <listcomp>
+    vol.get_fdata(dtype=np.float32).reshape(vol.shape[:3] + (-1,))
+  File "/opt/conda/lib/python3.9/site-packages/nibabel/dataobj_images.py", line 355, in get_fdata
+    data = np.asanyarray(self._dataobj, dtype=dtype)
+  File "/opt/conda/lib/python3.9/site-packages/nibabel/arrayproxy.py", line 391, in __array__
+    arr = self._get_scaled(dtype=dtype, slicer=())
+  File "/opt/conda/lib/python3.9/site-packages/nibabel/arrayproxy.py", line 358, in _get_scaled
+    scaled = apply_read_scaling(self._get_unscaled(slicer=slicer), scl_slope, scl_inter)
+  File "/opt/conda/lib/python3.9/site-packages/nibabel/arrayproxy.py", line 332, in _get_unscaled
+    return array_from_file(self._shape,
+  File "/opt/conda/lib/python3.9/site-packages/nibabel/volumeutils.py", line 521, in array_from_file
+    data_bytes = bytearray(n_bytes)
+MemoryError
+
+
