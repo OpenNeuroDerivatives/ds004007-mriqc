@@ -1,0 +1,27 @@
+Warning: Permanently added 'c183-043' (ECDSA) to the list of known hosts.
+WARNING (12/24/22 13:19:29): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.5079807.hostlist.ekx0fbXe to get hosts
+starting job on c183-043
+starting job on c183-143
+starting job on c184-012
+starting job on c184-184
+starting job on c185-181
+starting job on c185-192
+starting job on c186-012
+starting job on c186-133
+starting job on c186-183
+starting job on c188-041
+starting job on c190-211
+slurmstepd: error: *** JOB 5079807 ON c183-043 CANCELLED AT 2022-12-24T21:19:11 DUE TO TIME LIMIT ***
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Terminated
