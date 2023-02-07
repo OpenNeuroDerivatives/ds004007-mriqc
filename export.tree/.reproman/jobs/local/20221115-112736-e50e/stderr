@@ -1,9 +1,0 @@
-WARNING (11/16/22 01:47:47): LAUNCHER_WORKDIR variable not set. Using current directory.
-using /tmp/launcher.4995587.hostlist.D3kNLZRP to get hosts
-starting job on c117-123
-starting job on c177-033
-starting job on c177-112
-starting job on c177-114
-starting job on c177-124
-slurmstepd: error: *** JOB 4995587 ON c117-123 CANCELLED AT 2022-11-16T09:47:54 DUE TO TIME LIMIT ***
-Terminated
