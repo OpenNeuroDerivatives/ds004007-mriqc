@@ -1,0 +1,14 @@
+WARNING (01/14/23 01:40:31): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.5129084.hostlist.5vINUrGg to get hosts
+starting job on c184-161
+starting job on c185-061
+starting job on c188-203
+starting job on c189-182
+starting job on c190-112
+slurmstepd: error: *** JOB 5129084 ON c184-161 CANCELLED AT 2023-01-14T09:40:34 DUE TO TIME LIMIT ***
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Killed by signal 15.
+Terminated

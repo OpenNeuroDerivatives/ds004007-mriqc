@@ -1,0 +1,14 @@
+Warning: Permanently added 'c181-042' (ED25519) to the list of known hosts.
+WARNING (11/09/22 07:05:14): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.4982247.hostlist.A1EXSc8E to get hosts
+starting job on c181-042
+starting job on c181-071
+starting job on c181-153
+starting job on c182-114
+starting job on c182-182
+starting job on c182-204
+starting job on c184-031
+starting job on c184-141
+starting job on c184-164
+slurmstepd: error: *** JOB 4982247 ON c181-042 CANCELLED AT 2022-11-09T15:05:05 DUE TO TIME LIMIT ***
+Terminated
